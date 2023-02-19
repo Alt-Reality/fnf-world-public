@@ -28,16 +28,16 @@ using StringTools;
 class FreeplayState extends MusicBeatState
 {
 	//LOCK VARS
-	public static var redlakeUnlocked:Bool;
-	public static var timeUnlocked:Bool;
-	public static var headtripUnlocked:Bool;
-	public static var fleeUnlocked:Bool;
-	public static var universeendUnlocked:Bool;
-	public static var fredbarsUnlocked:Bool;
-	public static var isolationUnlocked:Bool;
-	public static var shadowUnlocked:Bool;
+	public static var redlakeUnlocked:Bool = false;
+	public static var timeUnlocked:Bool = false;
+	public static var headtripUnlocked:Bool = false;
+	public static var fleeUnlocked:Bool = false;
+	public static var universeendUnlocked:Bool = false; 
+	public static var fredbarsUnlocked:Bool = false;
+	public static var isolationUnlocked:Bool = false;
+	public static var shadowUnlocked:Bool = false;
 
-	public static var songsUnlocked:Bool;
+	public static var songsUnlocked:Bool = false;
 	//
 
 	var songs:Array<SongMetadata> = [];
@@ -129,7 +129,7 @@ class FreeplayState extends MusicBeatState
 			if(fredbarsUnlocked)
 				addSong('Fred Bars', 0, 'fredbar', -7179779);
 		}
-		WeekData.loadTheFirstEnabledMod();
+		//WeekData.loadTheFirstEnabledMod();
 
 		/*		//KIND OF BROKEN NOW AND ALSO PRETTY USELESS//
 
@@ -183,7 +183,7 @@ class FreeplayState extends MusicBeatState
 
 			// songText.x += 40;
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-			// songText.screenCenter(X);
+			songText.screenCenter(X); // this is a thing you can do this i know this because i use it on my bloons fnf mod (oops)
 		}
 		WeekData.setDirectoryFromWeek();
 
@@ -418,7 +418,6 @@ class FreeplayState extends MusicBeatState
 				curDifficulty = 1;
 				trace('Couldnt find file');
 			}*/
-			trace(poop);
 
 			PlayState.SONG = Song.loadFromJson(poop, songLowercase);
 			PlayState.isStoryMode = false;

@@ -738,9 +738,12 @@ class PlayState extends MusicBeatState
 				bonniePlat.scrollFactor.set();
 				bonniePlat.screenCenter();
 				add(bonniePlat);*/
+				
+			case 'rainbow':
+				//please code this if your going to add rainbow. btw if you want me to help make rainbow im willing too (i help)
 
 			case 'UN':
-				legsleft = new FlxSprite(212, 432).loadGraphic(Paths.image('FBDead'));//opp side FUCK THE OPPS
+				legsleft = new FlxSprite(212, 432).loadGraphic(Paths.image('FBDead'));//opp side THE OPPS
 				legsleft.antialiasing = true;
 				legsleft.scrollFactor.set(1.0, 1.0);
 				legsleft.flipX = true;

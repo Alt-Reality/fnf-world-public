@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="warnmessage.png">
+<SubTexture name="Warn0000" x="0" y="0" width="342" height="106" frameX="-12" frameY="-25" frameWidth="356" frameHeight="131" />
+</TextureAtlas>

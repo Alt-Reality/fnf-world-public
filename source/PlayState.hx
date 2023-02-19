@@ -1558,10 +1558,7 @@ class PlayState extends MusicBeatState
 			blackScreenHenryhud.cameras = [camHUD];
 			add(blackScreenHenryhud);
 		}
-
-		if(curStage == 'maingang' && Paths.formatToSongPath(SONG.song) == 'yar-har')
-			
-
+		
 		if(curStage == 'foxyexe'){
 			blackScreenFoxy.cameras = [camHUD];
 			add(blackScreenFoxy);

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="cs.png">
+<SubTexture name="fred0000" x="0" y="0" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+<SubTexture name="bonbon0000" x="100" y="0" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+<SubTexture name="chica0000" x="0" y="100" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+<SubTexture name="fox0000" x="100" y="100" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+<SubTexture name="fredb0000" x="0" y="200" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+<SubTexture name="bear0000" x="100" y="200" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+<SubTexture name="rxw0000" x="0" y="300" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+<SubTexture name="placeholder0000" x="100" y="300" width="100" height="100" frameX="0" frameY="0" frameWidth="70" frameHeight="70" />
+</TextureAtlas>

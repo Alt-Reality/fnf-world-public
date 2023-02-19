@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fredbear.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fredbear0000" x="100" y="100" width="495" height="581"/>
+	<SubTexture name="fredbear0001" x="695" y="100" width="495" height="581"/>
+	<SubTexture name="fredbear0002" x="1290" y="100" width="495" height="581"/>
+	<SubTexture name="fredbear0003" x="100" y="781" width="495" height="581"/>
+	<SubTexture name="fredbear0004" x="100" y="100" width="495" height="581"/>
+	<SubTexture name="fredbear0005" x="100" y="100" width="495" height="581"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fredbar.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="0" y="0" width="244" height="262"/>
+	<SubTexture name="idle0000" x="254" y="0" width="198" height="348"/>
+	<SubTexture name="left0000" x="462" y="0" width="253" height="347"/>
+	<SubTexture name="right0000" x="725" y="0" width="191" height="355"/>
+	<SubTexture name="up0000" x="0" y="365" width="240" height="362"/>
+</TextureAtlas>

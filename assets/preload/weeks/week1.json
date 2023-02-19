@@ -1,0 +1,24 @@
+{
+	"songs": [
+		["Adventure", "fredbear", [146, 113, 253]],
+		["Back to Basics", "freddy", [146, 113, 253]],
+		["PB&Jam", "bon", [146, 113, 253]],
+		["Birthday Cake", "chica", [146, 113, 253]],
+		["Yar Har", "foxyy", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "fredy fastbear :)",
+	"weekBefore": "tutorial",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

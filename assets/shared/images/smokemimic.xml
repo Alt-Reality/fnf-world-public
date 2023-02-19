@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="smokemimic.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="smoke0000" x="100" y="100" width="200" height="200"/>
+	<SubTexture name="smoke0001" x="400" y="100" width="200" height="200"/>
+	<SubTexture name="smoke0002" x="700" y="100" width="200" height="200"/>
+	<SubTexture name="smoke0003" x="1000" y="100" width="200" height="200"/>
+	<SubTexture name="smoke0004" x="1300" y="100" width="200" height="200"/>
+	<SubTexture name="smoke0005" x="100" y="400" width="200" height="200"/>
+	<SubTexture name="smoke0006" x="400" y="400" width="200" height="200"/>
+	<SubTexture name="smoke0007" x="700" y="400" width="200" height="200"/>
+	<SubTexture name="smoke0008" x="1000" y="400" width="200" height="200"/>
+	<SubTexture name="smoke0009" x="1300" y="400" width="200" height="200"/>
+</TextureAtlas>

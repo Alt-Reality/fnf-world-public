@@ -1,0 +1,190 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-75,
+				-80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-75,
+				-80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-74,
+				-80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [
+				1,
+				2,
+				3,
+				4
+			],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-75,
+				-81
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5
+			],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-75,
+				-81
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5
+			],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-75,
+				-80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "dead"
+		},
+		{
+			"offsets": [
+				-75,
+				-80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "dead"
+		},
+		{
+			"offsets": [
+				-75,
+				-80
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "dead"
+		},
+		{
+			"offsets": [
+				-75,
+				-80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "leftmiss"
+		},
+		{
+			"offsets": [
+				-74,
+				-79
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "downmiss"
+		},
+		{
+			"offsets": [
+				-75,
+				-81
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "upmiss"
+		},
+		{
+			"offsets": [
+				-75,
+				-80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "rightmiss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf-henry",
+	"position": [
+		0,
+		310
+	],
+	"healthicon": "henbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-120,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 2.5
+}

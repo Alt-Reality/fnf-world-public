@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="foxy.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="foxy0000" x="100" y="100" width="566" height="732"/>
+	<SubTexture name="foxy0001" x="766" y="100" width="566" height="732"/>
+	<SubTexture name="foxy0002" x="1432" y="100" width="566" height="732"/>
+	<SubTexture name="foxy0003" x="2098" y="100" width="566" height="732"/>
+	<SubTexture name="foxy0004" x="2764" y="100" width="566" height="732"/>
+	<SubTexture name="foxy0005" x="3430" y="100" width="566" height="732"/>
+	<SubTexture name="foxy0006" x="100" y="932" width="566" height="732"/>
+	<SubTexture name="foxy0007" x="100" y="100" width="566" height="732"/>
+	<SubTexture name="foxy0008" x="100" y="100" width="566" height="732"/>
+</TextureAtlas>

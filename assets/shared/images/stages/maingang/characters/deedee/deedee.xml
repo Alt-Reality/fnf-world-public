@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deedee.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="deedee0000" x="100" y="100" width="495" height="581"/>
+	<SubTexture name="deedee0001" x="695" y="100" width="495" height="581"/>
+	<SubTexture name="deedee0002" x="1290" y="100" width="495" height="581"/>
+	<SubTexture name="deedee0003" x="100" y="781" width="495" height="581"/>
+	<SubTexture name="deedee0004" x="100" y="100" width="495" height="581"/>
+	<SubTexture name="deedee0005" x="100" y="100" width="495" height="581"/>
+</TextureAtlas>

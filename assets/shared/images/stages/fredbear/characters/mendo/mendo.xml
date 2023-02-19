@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mendo.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mendoidle0000" x="0" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0001" x="0" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0002" x="800" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0003" x="800" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0004" x="1600" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0005" x="1600" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0006" x="2400" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0007" x="2400" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0008" x="3200" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0009" x="3200" y="0" width="800" height="1080"/>
+	<SubTexture name="mendoidle0010" x="0" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0011" x="0" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0012" x="800" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0013" x="800" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0014" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0015" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0016" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0017" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0018" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0019" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0020" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0021" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0022" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0023" x="1600" y="1080" width="800" height="1080"/>
+	<SubTexture name="mendoidle0024" x="1600" y="1080" width="800" height="1080"/>
+</TextureAtlas>

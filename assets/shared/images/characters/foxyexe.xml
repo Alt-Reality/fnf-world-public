@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="foxyexe.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="100" y="100" width="741" height="476"/>
+	<SubTexture name="down0001" x="941" y="100" width="741" height="476"/>
+	<SubTexture name="down0002" x="1782" y="100" width="741" height="476"/>
+	<SubTexture name="down0003" x="2623" y="100" width="741" height="476"/>
+	<SubTexture name="down0004" x="100" y="676" width="741" height="476"/>
+	<SubTexture name="idle0000" x="941" y="676" width="741" height="476"/>
+	<SubTexture name="left0000" x="1782" y="676" width="741" height="476"/>
+	<SubTexture name="left0001" x="2623" y="676" width="741" height="476"/>
+	<SubTexture name="left0002" x="100" y="1252" width="741" height="476"/>
+	<SubTexture name="left0003" x="941" y="1252" width="741" height="476"/>
+	<SubTexture name="left0004" x="1782" y="1252" width="741" height="476"/>
+	<SubTexture name="right0000" x="2623" y="1252" width="741" height="476"/>
+	<SubTexture name="right0001" x="100" y="1828" width="741" height="476"/>
+	<SubTexture name="right0002" x="941" y="1828" width="741" height="476"/>
+	<SubTexture name="right0003" x="1782" y="1828" width="741" height="476"/>
+	<SubTexture name="right0004" x="2623" y="1828" width="741" height="476"/>
+	<SubTexture name="up0000" x="100" y="2404" width="741" height="476"/>
+	<SubTexture name="up0001" x="941" y="2404" width="741" height="476"/>
+	<SubTexture name="up0002" x="1782" y="2404" width="741" height="476"/>
+	<SubTexture name="up0003" x="2623" y="2404" width="741" height="476"/>
+	<SubTexture name="up0004" x="100" y="2980" width="741" height="476"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freddy.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="freddy0000" x="100" y="100" width="549" height="746"/>
+	<SubTexture name="freddy0001" x="749" y="100" width="549" height="746"/>
+	<SubTexture name="freddy0002" x="1398" y="100" width="549" height="746"/>
+	<SubTexture name="freddy0003" x="2047" y="100" width="549" height="746"/>
+	<SubTexture name="freddy0004" x="2696" y="100" width="549" height="746"/>
+	<SubTexture name="freddy0005" x="3345" y="100" width="549" height="746"/>
+	<SubTexture name="freddy0006" x="100" y="946" width="549" height="746"/>
+	<SubTexture name="freddy0007" x="100" y="100" width="549" height="746"/>
+	<SubTexture name="freddy0008" x="100" y="100" width="549" height="746"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DDidle.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="deedee0000" x="0" y="0" width="601" height="788"/>
+	<SubTexture name="deedee0001" x="601" y="0" width="601" height="788"/>
+	<SubTexture name="deedee0002" x="1202" y="0" width="601" height="788"/>
+	<SubTexture name="deedee0003" x="1803" y="0" width="601" height="788"/>
+	<SubTexture name="deedee0004" x="2404" y="0" width="601" height="788"/>
+	<SubTexture name="deedee0005" x="3005" y="0" width="601" height="788"/>
+	<SubTexture name="deedee0006" x="0" y="788" width="601" height="788"/>
+	<SubTexture name="deedee0007" x="601" y="788" width="601" height="788"/>
+	<SubTexture name="deedee0008" x="1202" y="788" width="601" height="788"/>
+	<SubTexture name="deedee0009" x="1803" y="788" width="601" height="788"/>
+</TextureAtlas>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mimicball.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="100" y="100" width="284" height="242"/>
+	<SubTexture name="idle0001" x="484" y="100" width="284" height="242"/>
+	<SubTexture name="idle0002" x="868" y="100" width="284" height="242"/>
+	<SubTexture name="idle0003" x="1252" y="100" width="284" height="242"/>
+	<SubTexture name="idle0004" x="1636" y="100" width="284" height="242"/>
+	<SubTexture name="idle0005" x="100" y="442" width="284" height="242"/>
+	<SubTexture name="idle0006" x="484" y="442" width="284" height="242"/>
+	<SubTexture name="idle0007" x="868" y="442" width="284" height="242"/>
+	<SubTexture name="idle0008" x="1252" y="442" width="284" height="242"/>
+	<SubTexture name="idle0009" x="1636" y="442" width="284" height="242"/>
+	<SubTexture name="mad0000" x="100" y="784" width="284" height="242"/>
+	<SubTexture name="mad0001" x="484" y="784" width="284" height="242"/>
+	<SubTexture name="mad0002" x="868" y="784" width="284" height="242"/>
+	<SubTexture name="mad0003" x="1252" y="784" width="284" height="242"/>
+	<SubTexture name="mad0004" x="1636" y="784" width="284" height="242"/>
+	<SubTexture name="mad0005" x="100" y="1126" width="284" height="242"/>
+</TextureAtlas>

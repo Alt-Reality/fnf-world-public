@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				450
+			],
+			"anim": "gameover",
+			"fps": 24,
+			"name": "gameover",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/FBDead",
+	"position": [
+		-90,
+		300
+	],
+	"healthicon": "mom",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		180,
+		0
+	],
+	"camera_position": [
+		-110,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

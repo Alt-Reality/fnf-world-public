@@ -6,8 +6,5 @@
 	<SubTexture name="story_mode white0001" x="689" y="100" width="489" height="120"/>
 	<SubTexture name="story_mode white0002" x="1278" y="100" width="489" height="120"/>
 	<SubTexture name="story_mode white0003" x="1867" y="100" width="489" height="120"/>
-	<SubTexture name="story_mode white0004" x="100" y="320" width="489" height="120"/>
-	<SubTexture name="story_mode white0005" x="689" y="320" width="489" height="120"/>
-	<SubTexture name="story_mode white0006" x="1278" y="320" width="489" height="120"/>
 	<SubTexture name="story_mode basic0000" x="1867" y="320" width="489" height="120"/>
 </TextureAtlas>

@@ -62,7 +62,7 @@ class MainMenuState extends MusicBeatState
 
 	override function create()
 	{
-		WeekData.loadTheFirstEnabledMod();
+		//WeekData.loadTheFirstEnabledMod();
 		//Lock.loadSave();
 
 		#if desktop
@@ -97,16 +97,16 @@ class MainMenuState extends MusicBeatState
 		FreeplayState.isolationUnlocked = FlxG.save.data.isolationUnlocked;
 		MainMenuState.mainweekbeat = FlxG.save.data.mainweekbeat;//freddy trophy
 
-		trace(FreeplayState.redlakeUnlocked);
-		trace(FreeplayState.timeUnlocked);
-		trace(FreeplayState.headtripUnlocked);
-		trace(FreeplayState.fleeUnlocked);
-		trace(FreeplayState.universeendUnlocked);
-		trace(FreeplayState.fredbarsUnlocked);
-		trace(FreeplayState.shadowUnlocked);
-		trace(FreeplayState.songsUnlocked);
-		trace(FreeplayState.isolationUnlocked);
-		trace(MainMenuState.mainweekbeat);
+		//trace(FreeplayState.redlakeUnlocked);
+		//trace(FreeplayState.timeUnlocked);
+		//trace(FreeplayState.headtripUnlocked);
+		//trace(FreeplayState.fleeUnlocked);
+		//trace(FreeplayState.universeendUnlocked);
+		//trace(FreeplayState.fredbarsUnlocked);
+		//trace(FreeplayState.shadowUnlocked);
+		//trace(FreeplayState.songsUnlocked);
+		//trace(FreeplayState.isolationUnlocked);
+		//trace(MainMenuState.mainweekbeat);
 
 		FlxG.mouse.visible = true;
 

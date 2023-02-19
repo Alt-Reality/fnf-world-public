@@ -6,8 +6,5 @@
 	<SubTexture name="credits white0001" x="689" y="100" width="489" height="120"/>
 	<SubTexture name="credits white0002" x="1278" y="100" width="489" height="120"/>
 	<SubTexture name="credits white0003" x="1867" y="100" width="489" height="120"/>
-	<SubTexture name="credits white0004" x="100" y="320" width="489" height="120"/>
-	<SubTexture name="credits white0005" x="689" y="320" width="489" height="120"/>
-	<SubTexture name="credits white0006" x="1278" y="320" width="489" height="120"/>
 	<SubTexture name="credits basic0000" x="1867" y="320" width="489" height="120"/>
 </TextureAtlas>

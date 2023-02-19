@@ -100,10 +100,10 @@ class TitleState extends MusicBeatState
 		Paths.clearUnusedMemory();
 
 		#if LUA_ALLOWED
-		Paths.pushGlobalMods();
+		//Paths.pushGlobalMods();
 		#end
 		// Just to load a mod on start up if ya got one. For mods that change the menu music and bg
-		WeekData.loadTheFirstEnabledMod();
+		//WeekData.loadTheFirstEnabledMod();
 
 		// only these load here
 		FreeplayState.redlakeUnlocked = FlxG.save.data.redlakeUnlocked;
@@ -383,7 +383,7 @@ class TitleState extends MusicBeatState
 		titleText.frames = Paths.getSparrowAtlas('titleEnter');
 		titleText.animation.addByPrefix('idle', "ENTER IDLE", 24);
 		titleText.animation.play('idle');
-		titleText.antialiasing = ClientPrefs.globalAntialiasing;
+		titleText.antialiasing = ClientPrefs.globalAntialiasing; //im decompiling fnaf world to make the mod more faithful to the OG!1!
 		titleText.scale.set(1.2, 1.2);
 		titleText.updateHitbox();
 		if(!closedState)

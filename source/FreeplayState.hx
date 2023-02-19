@@ -63,6 +63,13 @@ class FreeplayState extends MusicBeatState
 	var bg:FlxSprite;
 ///	var intendedColor:Int;
 	var colorTween:FlxTween;
+	
+	// new stuff
+	var hills:FlxSprite;
+	var partymaker:FlxSprite;
+	var icons:FlxSprite;
+	var border:FlxSprite;
+	var blackthing:FlxSprite;
 
 	override function create()
 	{
@@ -128,6 +135,8 @@ class FreeplayState extends MusicBeatState
 				addSong('Isolation', 0, 'hen', -7179779);
 			if(fredbarsUnlocked)
 				addSong('Fred Bars', 0, 'fredbar', -7179779);
+//			if(rainbowUnlocked)
+//				addSong('Rainbow Land', 0, 'rainbow', -7179779);
 		}
 		//WeekData.loadTheFirstEnabledMod();
 
@@ -155,12 +164,12 @@ class FreeplayState extends MusicBeatState
 
 		for (i in 0...songs.length)
 		{
-			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, songs[i].songName, true, false);
+			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, "", true, false);
 			songText.isMenuItem = true;
 			songText.targetY = i;
 			grpSongs.add(songText);
 
-			if (songText.width > 980)
+			/*if (songText.width > 980)
 			{
 				var textScale:Float = 980 / songText.width;
 				songText.scale.x = textScale;
@@ -171,7 +180,7 @@ class FreeplayState extends MusicBeatState
 				}
 				//songText.updateHitbox();
 				//trace(songs[i].songName + ' new scale: ' + textScale);
-			}
+			} */
 
 			Paths.currentModDirectory = songs[i].folder;
 			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
@@ -183,22 +192,22 @@ class FreeplayState extends MusicBeatState
 
 			// songText.x += 40;
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-			songText.screenCenter(X); // this is a thing you can do this i know this because i use it on my bloons fnf mod (oops)
+			//songText.screenCenter(X); // this is a thing you can do this i know this because i use it on my bloons fnf mod (oops)
 		}
 		WeekData.setDirectoryFromWeek();
 
-		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
-		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
+		//scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
+		//scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
 
-		scoreBG = new FlxSprite(scoreText.x - 6, 0).makeGraphic(1, 60, 0xFF000000);
-		scoreBG.alpha = 0.6;
-		add(scoreBG);
+		//scoreBG = new FlxSprite(scoreText.x - 6, 0).makeGraphic(1, 60, 0xFF000000);
+		//scoreBG.alpha = 0.6;
+		//add(scoreBG);
 
 		/*diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
 		add(diffText);*/
 
-		add(scoreText);
+		//add(scoreText);
 
 		if(curSelected >= songs.length) curSelected = 0;
 		/*bg.color = songs[curSelected].color;
@@ -215,24 +224,7 @@ class FreeplayState extends MusicBeatState
 
 		var swag:Alphabet = new Alphabet(1, 0, "swag");
 
-		// JUST DOIN THIS SHIT FOR TESTING!!!
-		/* 
-			var md:String = Markdown.markdownToHtml(Assets.getText('CHANGELOG.md'));
-
-			var texFel:TextField = new TextField();
-			texFel.width = FlxG.width;
-			texFel.height = FlxG.height;
-			// texFel.
-			texFel.htmlText = md;
-
-			FlxG.stage.addChild(texFel);
-
-			// scoreText.textField.htmlText = md;
-
-			trace(md);
-		*/
-
-		var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 26).makeGraphic(FlxG.width, 26, 0xFF000000);
+		/*var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 26).makeGraphic(FlxG.width, 26, 0xFF000000);
 		textBG.alpha = 0.6;
 		add(textBG);
 
@@ -246,7 +238,7 @@ class FreeplayState extends MusicBeatState
 		var text:FlxText = new FlxText(textBG.x, textBG.y + 4, FlxG.width, leText, size);
 		text.setFormat(Paths.font("vcr.ttf"), size, FlxColor.WHITE, RIGHT);
 		text.scrollFactor.set();
-		add(text);
+		add(text); */
 		super.create();
 	}
 

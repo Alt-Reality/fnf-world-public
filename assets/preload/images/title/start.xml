@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="start.png">
+<SubTexture name="st0000" x="0" y="0" width="246" height="60" frameX="-4" frameY="-3" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0001" x="0" y="60" width="246" height="60" frameX="-2" frameY="-3" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0002" x="0" y="120" width="246" height="60" frameX="-5" frameY="-3" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0003" x="0" y="180" width="246" height="60" frameX="-6" frameY="-2" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0004" x="246" y="0" width="246" height="60" frameX="-5" frameY="-2" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0005" x="246" y="60" width="246" height="60" frameX="-1" frameY="-2" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0006" x="246" y="120" width="246" height="60" frameX="-3" frameY="-3" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0007" x="246" y="180" width="246" height="60" frameX="-1" frameY="-2" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0008" x="0" y="240" width="246" height="60" frameX="-5" frameY="-3" frameWidth="253" frameHeight="65" />
+<SubTexture name="st0009" x="246" y="240" width="246" height="60" frameX="-4" frameY="-3" frameWidth="253" frameHeight="65" />
+</TextureAtlas>

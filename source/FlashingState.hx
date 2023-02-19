@@ -43,7 +43,7 @@ class FlashingState extends MusicBeatState
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		add(bg);
 
-		warning = new FlxSprite(-600, -200).loadGraphic(Paths.image('warning'));
+		warning = new FlxSprite(-600, -200).loadGraphic(Paths.image('warnmessage'));
 		warning.antialiasing = false;
 		warning.scrollFactor.set(1.0, 1.0);
 		warning.screenCenter();

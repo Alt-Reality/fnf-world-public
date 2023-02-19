@@ -1,14 +1,13 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "left",
 			"indices": [
 				1,
 				2,
@@ -27,17 +26,17 @@
 				15,
 				16,
 				17
-			]
+			],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "down",
 			"indices": [
 				1,
 				2,
@@ -56,17 +55,17 @@
 				15,
 				16,
 				17
-			]
+			],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
 			"indices": [
 				1,
 				2,
@@ -85,17 +84,17 @@
 				15,
 				16,
 				17
-			]
+			],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "right",
 			"indices": [
 				1,
 				2,
@@ -114,62 +113,63 @@
 				15,
 				16,
 				17
-			]
+			],
+			"name": "right"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"indices": [],
-			"name": "rightguitar"
+			"fps": 24,
+			"name": "rightguitar",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT-alt",
-			"indices": [],
-			"name": "leftguitar"
+			"fps": 24,
+			"name": "leftguitar",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP-alt",
-			"indices": [],
-			"name": "upguitar"
+			"fps": 24,
+			"name": "upguitar",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN-alt",
-			"indices": [],
-			"name": "downguitar"
+			"fps": 24,
+			"name": "downguitar",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				1,
 				0
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -186,7 +186,7 @@
 		153
 	],
 	"camera_position": [
-		200,
+		212,
 		30
 	],
 	"sing_duration": 6.1,

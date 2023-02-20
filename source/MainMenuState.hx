@@ -42,6 +42,7 @@ class MainMenuState extends MusicBeatState
 
 	public static var mainweekbeat:Bool;
 	public static var isHenrySong:Bool;
+	public static var beatFirstTime:Bool;
 
 	//trophies
 	var mgTrophy:FlxSprite;//main gang(week)
@@ -54,6 +55,9 @@ class MainMenuState extends MusicBeatState
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var songKeysBuffer:String = '';
 	var blackScreenMM:FlxSprite;
+	var fileText:FlxText;
+	var blackScreenFiles:FlxSprite;
+	var inWarningText:Bool;
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
@@ -123,6 +127,15 @@ class MainMenuState extends MusicBeatState
 			FlxG.save.flush();
 		}
 
+		//aaaa this is really bad
+		if(MainMenuState.mainweekbeat && !FreeplayState.timeUnlocked && !FreeplayState.headtripUnlocked && !FreeplayState.fleeUnlocked && !FreeplayState.universeendUnlocked && !FreeplayState.redlakeUnlocked && !FreeplayState.fredbarsUnlocked && !FreeplayState.shadowUnlocked) {
+			if(FlxG.save.data.beatFirstTime == false || FlxG.save.data.beatFirstTime == null) {
+				beatFirstTime = true;
+				FlxG.save.data.beatFirstTime = beatFirstTime;
+				FlxG.save.flush();
+			}
+		}
+
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
 		bg.scrollFactor.set(0, yScroll);
@@ -181,7 +194,8 @@ class MainMenuState extends MusicBeatState
 			new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
 					menuItem.visible = true;
-					canClick = true;
+					if(!inWarningText)
+						canClick = true;
 				});
 		}
 
@@ -236,6 +250,27 @@ class MainMenuState extends MusicBeatState
 		blackScreenMM.alpha = 0.00001;
 		add(blackScreenMM);
 
+		if(beatFirstTime){
+			inWarningText = true;
+			blackScreenFiles = new FlxSprite().makeGraphic(Std.int(FlxG.width * 4), Std.int(FlxG.height * 4), FlxColor.BLACK);
+			blackScreenFiles.scrollFactor.set();
+			blackScreenFiles.screenCenter();
+			blackScreenFiles.alpha = 0.7;
+			add(blackScreenFiles);
+
+			fileText = new FlxText(0, 0, FlxG.width,
+				"Hey!\n
+				Looks like you beat the main week!\n
+				Fredbear left a letter warning you about stuff you SHOULDNT do!\n
+				I think it was called clearlynotacheatsheet.png.\n
+				If you dont understand one of them, you may have to search it up.\n
+				But again, Make sure to NOT do them!",
+			32);
+			fileText.setFormat(Paths.font("RooneySansHv.OTF"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			fileText.screenCenter();
+			add(fileText);
+		}
+
 		if(FreeplayState.songsUnlocked){
 			FlxG.sound.music.volume = 0;
 			blackScreenMM.alpha = 1;
@@ -259,7 +294,7 @@ class MainMenuState extends MusicBeatState
 
 	var selectedSomethin:Bool = false;
 
-	var canClick:Bool = true;
+	var canClick:Bool;
 	var transitioning:Bool = false;
 	var usingMouse:Bool = false;
 
@@ -311,6 +346,28 @@ class MainMenuState extends MusicBeatState
 			{
 				FlxG.switchState(new TitleState());
 			}
+
+			if (controls.ACCEPT)
+			{
+				if(inWarningText){//ur in the text so pressing accept removes it
+					FlxTween.tween(fileText, {alpha: 0}, 1, {
+						onComplete: function (twn:FlxTween) {
+							remove(fileText);
+						}
+					});
+					FlxTween.tween(blackScreenFiles, {alpha: 0}, 1.5, {
+						onComplete: function (twn:FlxTween) {
+							remove(fileText);
+							beatFirstTime = false;
+							FlxG.save.data.beatFirstTime = beatFirstTime;
+							FlxG.save.flush();
+							inWarningText = false;
+							canClick = true;
+						}
+					});
+				}
+			}
+
 			#if desktop
 			else if (FlxG.keys.anyJustPressed(debugKeys))
 			{
